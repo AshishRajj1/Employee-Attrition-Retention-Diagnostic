@@ -64,11 +64,11 @@ Features with an Odds Ratio $> 1.0$ increase the probability of turnover; values
 ```text
 ├── data/
 │   ├── raw/                              <- Original unedited dataset
+│   ├── processed/                        <- modified dataset
 │   └── employee_attrition_cleaned.csv    <- Cleaned, transformed dataset
 ├── notebooks/
-│   ├── 01_data_processing.ipynb          <- Data audit, cleanup, and feature creation
-│   ├── 02_exploratory_analysis.ipynb     <- Visualizations & pattern discovery
-│   └── 03_statistical_testing.ipynb      <- Chi-Square, T-Tests & Odds Ratio modeling
+│   ├── exploratory_analysis.ipynb     <- Visualizations & pattern discovery
+│   └── statistical_testing.ipynb      <- Chi-Square, T-Tests & Odds Ratio modeling
 ├── images/                               <- High-resolution plots used in README
 ├── README.md                             <- Project summary & business findings
 └── requirements.txt                      <- Required Python dependencies
